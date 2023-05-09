@@ -12,6 +12,25 @@ li, dl, dt, dd, ul, ol{
     list-style: none;   
 }
 
-
-
+.bg-black{
+    background-color: black;
+}
+.left{
+    left: 0;
+    top: 50%;
+    width: calc(50vw - 50px);
+    transform: translateY(-50%);
+}
+.right{
+    right: 0;
+    top: 50%;
+    width: calc(50vw - 50px);
+    transform: translateY(-50%);
+}
+.name{
+    top:50%;
+    left:50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
 
